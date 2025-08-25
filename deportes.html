@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deportes en San Lorenzo - Paraguay</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background-color: #0054a1;
+      padding: 12px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 20px;
+      margin: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    h2 {
+      color: #003366;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 12px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+    .hidden { display: none; }
+  </style>
+  <script>
+    function mostrarPagina(id) {
+      document.querySelectorAll("main > section").forEach(sec => sec.classList.add("hidden"));
+      document.getElementById(id).classList.remove("hidden");
+      window.scrollTo(0, 0);
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Deportes en San Lorenzo - Paraguay</h1>
+    <p>Explora la pasión deportiva de la ciudad universitaria de Paraguay.</p>
+  </header>
+
+  <nav>
+    <a href="#" onclick="mostrarPagina('inicio')">Inicio</a>
+    <a href="#" onclick="mostrarPagina('deportes')">Deportes</a>
+  </nav>
+
+  <main>
+    <!-- Página principal -->
+    <section id="inicio">
+      <h2>Bienvenido</h2>
+      <p>San Lorenzo, conocido como la “Ciudad Universitaria” de Paraguay, no solo destaca por su cultura y educación, sino también por su vida deportiva.  
+      Desde el fútbol hasta el básquet, pasando por rugby y actividades recreativas, los sanlorenzanos disfrutan y promueven el deporte como un estilo de vida saludable.</p>
+      <p><strong>Haz clic en la sección de "Deportes"</strong> para conocer más sobre cada disciplina en San Lorenzo.</p>
+    </section>
+
+    <!-- Página de lista de deportes -->
+    <section id="deportes" class="hidden">
+      <h2>Deportes en San Lorenzo</h2>
+      <ul>
+        <li><a href="#" onclick="mostrarPagina('futbol')">⚽ Fútbol</a></li>
+        <li><a href="#" onclick="mostrarPagina('basquet')">🏀 Básquet</a></li>
+        <li><a href="#" onclick="mostrarPagina('rugby')">🏉 Rugby</a></li>
+        <li><a href="#" onclick="mostrarPagina('recreativas')">🏊 Actividades Recreativas</a></li>
+      </ul>
+    </section>
+
+    <!-- Página Fútbol -->
+    <section id="futbol" class="hidden">
+      <h2>⚽ Fútbol en San Lorenzo</h2>
+      <p>Fútbol en San Lorenzo — Panorama General
+Entrenadores principales y clubes destacados
+
+El Club Sportivo San Lorenzo, conocido como “El Rayadito”, es el principal club representativo de la ciudad. Fue fundado en 1930 y actualmente compite en la División Intermedia del fútbol paraguayo.
+Wikipedia
++1
+
+Hace varias temporadas ha tenido participaciones fluctuantes entre la Primera División y la Intermedia. En 2014 logró un ascenso importante tras once años fuera de la máxima categoría.
+ESPNdeportes.com
++1
+
+En la temporada 2025, el equipo está disputando nuevamente la División Intermedia y ha sumado triunfos notables, como el reciente 3-1 ante Independiente de Campo Grande.
+ABC Color
+
+Estadio Gunther Vogel — El corazón del fútbol local
+
+Este estadio, ubicado en la intersección de la Ruta Nacional PY02 con la calle Azara, es la sede del Sportivo San Lorenzo. Tiene una capacidad aproximada de 6 200 espectadores.
+Wikipedia
++1
+
+Conocido anteriormente como Estadio Ciudad Universitaria hasta 2011, fue sometido a mejoras recientes (iluminación, césped, vestuarios, etc.) y ahora también sirve como sede temporal para otros clubes como Guaraní, mientras su estadio está en remodelación.
+Wikipedia
+ABC Color
+
+Además, el estadio es utilizado para eventos del Campeonato local de la Liga Sanlorenzana de Fútbol y también por la Selección Sanlorenzana en torneos de la U.F.I.
+Wikipedia
++1
+
+Liga Sanlorenzana de Fútbol — Punto de encuentro comunitario
+
+Fundada en 1951, esta liga regional agrupa a unos 21 clubes locales y organiza campeonatos internos en categorías mayores, juveniles y femeninas.
+Wikipedia
+
+Gestiona también la participación de la Selección Sanlorenzana en torneos interligas, donde ha tenido participaciones destacadas, como en 1923 y en competiciones juveniles como el Sub-19.</p>
+      <ul>
+        <li><strong>Estadio:</strong> Estadio Gunther Vogel.</li>
+        <li><strong>Fundación:</strong> 17 de marzo de 1930.</li>
+        <li><strong>Colores:</strong> Rojo y Blanco a rayas.</li>
+      </ul>
+      <p><em>Dato curioso:</em> Sportivo San Lorenzo es uno de los clubes tradicionales del fútbol paraguayo y su hinchada se caracteriza por su fidelidad incluso en las categorías de ascenso.</p>
+      <a href="#" onclick="mostrarPagina('deportes')">⬅ Volver</a>
+    </section>
+
+    <!-- Página Básquet -->
+    <section id="basquet" class="hidden">
+      <h2>🏀 Básquet en San Lorenzo</h2>
+      <p>El Club Sportivo San Lorenzo impulsa el básquet desde 1993. En 1994, su equipo logró el ascenso y alcanzó la Primera División paraguaya en muy poco tiempo 
+Wikipedia
++1
+.
+
+En 2013, el equipo principal conquistó la Copa Estadio Comuneros, un título destacado a nivel nacional 
+Wikipedia
+.
+
+En las categorías juveniles, el club acumula numerosos logros:
+
+Sub-14 femenino y masculino campeones metropolitanos (2010)
+
+Sub-15 masculino y femenino campeones (2011)
+
+Sub-17 femenino campeón nacional (2012)
+
+Sub-14 masculino campeón metropolitano (2014)
+
+Éxitos también en U16, U17 y U18 en temporadas siguientes 
+Wikipedia
+.
+
+En diciembre de 2024, la Federación Sanlorenzana de Básquetbol celebró un doble título nacional U13 (varones y mujeres), ambos invictos y con gran actuación 
+latribuna.com.py
+.
+
+En mayo de 2022 se inauguró el Campeonato Nacional U14 Masculino, celebrado en San Lorenzo, cuya apertura contó con presencia municipal y fue organizado por la federación local 
+sanlorenzopy.com
+.
+
+Actualmente, hay un fuerte impulso para contar con una cancha propia de básquet. Un grupo denominado “Amigos de SanLo Basket” organiza eventos solidarios, como una “gran comilona”, para recaudar fondos y lograr este objetivo 
+sanlorenzopy.com
+.
+
+Resumen: El básquet es una disciplina con gran arraigo en San Lorenzo. Sportivo San Lorenzo se destaca tanto en la élite nacional como en las categorías juveniles, mientras que la comunidad trabaja activamente para fortalecer su infraestructura deportiva.
+
+</p>
+      <ul>
+        <li><strong>Clubes principales:</strong> Sportivo San Lorenzo y ligas barriales.</li>
+        <li><strong>Competiciones:</strong> Torneos locales y regionales de la Federación Paraguaya de Básquetbol.</li>
+      </ul>
+      <p><em>Dato:</em> San Lorenzo cuenta con varias canchas techadas que permiten el desarrollo del básquet a nivel formativo.</p>
+      <a href="#" onclick="mostrarPagina('deportes')">⬅ Volver</a>
+    </section>
+
+    <!-- Página Rugby -->
+    <section id="rugby" class="hidden">
+      <h2>🏉 Rugby en San Lorenzo</h2>
+      <p>Rugby en San Lorenzo, Paraguay
+1. Campo de Rugby en San Lorenzo
+
+Existe un terreno de juego específico para rugby en la ciudad: el llamado Campo de Rugby, ubicado cerca de la Facultad de Ciencias Veterinarias y del Parque Lugar de Reunión, en San Lorenzo, Departamento Central 
+Mapcarta
++1
+. Aunque está destinado principalmente para uso recreativo, es el punto físico conocido en la zona donde se practica este deporte.
+
+2. Participación en el Campeonato Metropolitano
+
+San Lorenzo cuenta con representación oficial en el Campeonato Metropolitano de Rugby, organizado por la Unión de Rugby del Paraguay para clubes en desarrollo dentro del área metropolitana 
+infogalactic.com
+Wikipedia
+. Es una liga donde compiten clubes que aún no participan en el nivel nacional más alto, como la Primera División.
+
+3. El contexto del rugby en Paraguay
+
+El Campeonato Paraguayo de Rugby (máxima competencia) es organizado por la Unión de Rugby del Paraguay desde 1970. Actualmente, equipos como CURDA, San José y Luque dominan el palmarés 
+Wikipedia
+.
+
+También existe un Campeonato del Interior, para clubes de provincias, y el Metropolitano, donde participa San Lorenzo 
+Wikipedia
+infogalactic.com
+.
+
+La infraestructura del rugby en Paraguay está bien desarrollada en términos de categorías formativas, incluyendo divisiones juveniles y femeninas.</p>
+      <ul>
+        <li><strong>Práctica:</strong> Universidades y equipos locales.</li>
+        <li><strong>Competiciones:</strong> Torneos organizados por la Unión de Rugby del Paraguay.</li>
+      </ul>
+      <p><em>Dato:</em> El rugby es un deporte en desarrollo en la ciudad, con una comunidad que crece cada año.</p>
+      <a href="#" onclick="mostrarPagina('deportes')">⬅ Volver</a>
+    </section>
+
+    <!-- Página Actividades Recreativas -->
+    <section id="recreativas" class="hidden">
+      <h2>🏊 Actividades Recreativas en San Lorenzo</h2>
+      <p>Actividades recreativas en San Lorenzo, Paraguay
+1. Ciclovía Municipal de San Lorenzo
+
+Este espacio modernizado es ya todo un referente de recreación en la ciudad. Cuenta con:
+
+Parques infantiles inclusivos, con juegos accesibles para niños con movilidad reducida, zonas adaptadas para neurodivergencias y espacios divididos por rango de edad. Además, cuenta con bancas y zonas de supervisión para adultos 
+ABC Color
+Última Hora
+.
+
+Laguna artificial, cascada, senderos iluminados, zonas de gimnasio al aire libre y un entorno ideal para pasear o hacer ejercicio 
+Última Hora
+.
+
+El parque está habilitado al público de lunes a domingo, desde las 07:00 hasta las 23:00h 
+ABC Color
+.
+
+2. Parque Ykua Pa’i (antes "Parque Chespi")
+
+Este emblemático espacio fue revitalizado con una inversión de G. 750 millones. Ahora cuenta con:
+
+Juegos infantiles, áreas de gimnasio, espacios de estancia, una fuente artificial que preserva las nacientes del arroyo San Lorenzo 
+Última Hora
+.
+
+Es el primer parque pet-friendly oficial en la ciudad, ideal para pasear con mascotas 
+Última Hora
+.
+
+Está debidamente iluminado y cuenta con casetas de seguridad; aunque abierto al público, cierra de noche por seguridad 
+Última Hora
+.
+
+3. Espacios temporales y eventos especiales
+
+Parque de diversiones en Plaza Marcelina Insfrán: Se arma en ocasiones especiales, como festividades patronales, con juegos como calesita, autos chocadores y ruleta 
+sanlorenzopy.com
+.
+
+Astro Land, junto al Pinedo Shopping (cerca de McDonald’s): Ofrece atracciones al aire libre (rueda gigante, trencitos, tal vez avioncitos) y una zona techada con juegos electrónicos, billar, tejo y patio de comidas 
+Última Hora
+.
+
+Parque Olé: A veces llega a San Lorenzo con juegos inflables, pintura, cama elástica y entretenimientos para niños, generalmente en espacios públicos como la cancha municipal 
+Última Hora
+.
+
+4. Cultura, paseos y lugares emblemáticos
+
+Catedral de San Lorenzo (estilo neogótico): Rodeada de plazas, peatonales, y parte de un entorno cultural histórico en el centro de la ciudad 
+Wikipedia
++1
+.
+
+Centro Cultural “Estación del Tren Lechero”: Antiguo edificio ferroviario, actual museo y espacio de exposiciones y actividades culturales 
+Wikipedia
+.
+
+Plaza Juan Ignacio Martínez Barrios: Punto de encuentro social donde se realizan ferias, eventos culturales y actividades comunitarias 
+wildtrips.net
+.
+
+Cerro Lambare: Ideal para caminatas y disfrutar de vistas panorámicas de la ciudad 
+wildtrips.net
+.
+
+Mapa rápido de opciones
+
+Ciclovía Municipal – ideal para toda la familia y ejercicios al aire libre.
+
+Parque Ykua Pa’i – perfecto para paseos tranquilos, también amigable para mascotas.
+
+Eventos temporales – diversión itinerante con atracciones variadas.
+
+Cultura y paseos históricos – experiencias más tranquilas en sitios emblemáticos.</p>
+      <ul>
+        <li><strong>Natación:</strong> Piscinas públicas y privadas.</li>
+        <li><strong>Tenis:</strong> Canchas disponibles en clubes locales.</li>
+        <li><strong>Gimnasio:</strong> Gimnasios equipados con pesas y máquinas modernas.</li>
+        <li><strong>Eventos recreativos:</strong> Torneos barriales, caminatas y ciclismo.</li>
+      </ul>
+      <p><em>Dato:</em> San Lorenzo organiza con frecuencia eventos deportivos comunitarios que reúnen a familias enteras.</p>
+      <a href="#" onclick="mostrarPagina('deportes')">⬅ Volver</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Deportes en San Lorenzo - Paraguay. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
